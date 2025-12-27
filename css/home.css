@@ -1,0 +1,267 @@
+/* Header CSS Start */
+header {
+    padding: 80px 0 0;
+    background: url(../images/header/bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header h1 {
+    font-size: 83px;
+}
+header .lime {
+    color: #c3df94;
+}
+header p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 19px;
+}
+header h6 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+header .button {
+    background-color: #f75709;
+    color: #fff;
+    transition: 0.4s;
+}
+header .button:hover {
+    background-color: #c3df94;
+    color: #063231;
+}
+header .images {
+    position: relative;
+}
+header .two {
+    position: absolute;
+    top: 12%;
+    left: 0;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+header .item_one, header .item_two {
+    background-color: #e9ecef52;
+    max-width: 220px;
+    position: absolute;
+}
+header .item_one {
+    top: 70%;
+    left: 0;
+}
+header .item_one h2, header .item_two h2 {
+    font-size: 56px;
+}
+header .item_two {
+    top: 52%;
+    right: 14%;
+}
+@media screen and (max-width: 768px) {
+    header {
+        padding: 40px 0;
+    }
+    header h1 {
+        font-size: 80px;
+    }
+    header p {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 576px) {
+    header {
+        padding: 34px 0;
+    }
+    header h1 {
+        font-size: 40px;
+    }
+    header p {
+        font-size: 14px;
+    }
+    header .item_one h2, header .item_two h2 {
+        font-size: 26px;
+    }
+    header .two {
+        top: 0;
+    }
+    header .item_one {
+        top: 82%;
+    }
+    header .item_two {
+        right: 0;
+    }
+}
+/* Header CSS End */
+
+
+/* Service CSS Start */
+.service {
+    padding: 100px 0;
+}
+.service .headline h6 {
+    color: #f75709;
+}
+.service .headline h1 {
+    color: #063231;
+    font-size: 56px;
+    max-width: 560px;
+}
+.service .item {
+    background-color: #f5f7f7;
+    padding: 40px 30px;
+}
+.service .item .icon {
+    background-color: #c3df94;
+    color: #063231;
+    width: 70px;
+    height: 70px;
+    transition: 0.4s;
+    margin-bottom: 38px;
+}
+.service .item:hover .icon {
+    background-color: #f75709;
+    color: #fff;
+}
+.service .item h3 {
+    color: #063231;
+}
+.service .item h3 i {
+    color: #f75709;
+    margin-left: -30px;
+    transform: rotate(315deg);
+    opacity: 0;
+    transition: 0.4s;
+}
+.service .item h3:hover i {
+    margin-left: 0;
+    opacity: 1;
+}
+.service .item p {
+    font-size: 18px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+@media screen and (max-width: 768px) {
+    .service {
+        padding: 60px 0;
+    }
+    .service .headline h6, .service .item p {
+        font-size: 14px;
+    }
+    .service .headline h1 {
+        font-size: 36px;
+    }
+    .service .item {
+        padding: 36px 26px;
+    }
+    .service .item h3 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .service {
+        padding: 38px 0;
+    }
+    .service .headline h6, .service .item p {
+        font-size: 12px;
+    }
+    .service .headline h1 {
+        font-size: 24px;
+    }
+    .service .item {
+        padding: 30px 20px;
+    }
+    .service .item h3 {
+        font-size: 18px;
+    }
+}
+/* Service CSS End */
+
+
+/* About CSS Start */
+.about .image img {
+    width: 100%;
+}
+.about h6 {
+    color: #f75709;
+}
+.about h1 {
+    color: #063231;
+    font-size: 56px;
+    max-width: 500px;
+}
+.about p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    max-width: 500px;
+    color: #063231;
+}
+.about .button {
+    background-color: #063231;
+    transition: 0.4s;
+}
+.about .button:hover {
+    background-color: #f75709;
+}
+@media screen and (max-width: 768px) {
+    .about h1, .about p {
+        max-width: 100%;
+    }
+    .about h6 {
+        font-size: 14px;
+    }
+    .about h1 {
+        font-size: 44px;
+    }
+    .about p {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .about h6 {
+        font-size: 12px;
+    }
+    .about h1 {
+        font-size: 24px;
+    }
+    .about p {
+        font-size: 14px;
+    }
+}
+/* About CSS End */
+
+
+/* Stats CSS Start */
+.stats {
+    padding: 100px 0;
+}
+.stats .items {
+    background-color: #f5f7f7;
+    padding: 44px 0;
+}
+.stats .item {
+    padding: 0 70px;
+}
+.stats .item h2, .stats .item h4, .stats .item p {
+    color: #063231;
+}
+.stats .item h2 {
+    font-size: 80px;
+}
+.stats .item h2 .orange {
+    color: #f75709;
+}
+.stats .item p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 19px;
+}
+@media screen and (max-width: 768px) {
+    .stats {
+        padding: 60px 0;
+    }
+    .stats .items {
+        padding: 38px 0;
+    }
+    .stats .item {
+        padding: 0 20px;
+    }
+    .stats .middle {
+        border: 0 !important;
+    }
+}
+/* Stats CSS End */
