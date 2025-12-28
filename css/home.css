@@ -1,6 +1,6 @@
 /* Header CSS Start */
 header {
-    padding: 80px 0 0;
+    padding: 70px 0 0;
     background: url(../images/header/bg.webp);
     background-size: cover;
     background-repeat: no-repeat;
@@ -33,9 +33,15 @@ header .images {
 header .two {
     position: absolute;
     top: 12%;
-    left: 0;
-    animation-duration: 2s;
+    animation-name: one;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
     animation-iteration-count: infinite;
+}
+@keyframes one {
+    0% {left: 0;}
+    50% {left: 3%;}
+    100% {left: 0;}
 }
 header .item_one, header .item_two {
     background-color: #e9ecef52;
@@ -44,7 +50,15 @@ header .item_one, header .item_two {
 }
 header .item_one {
     top: 70%;
-    left: 0;
+    animation-name: two;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes two {
+    0% {left: 0;}
+    50% {left: 3%;}
+    100% {left: 0;}
 }
 header .item_one h2, header .item_two h2 {
     font-size: 56px;
@@ -52,6 +66,15 @@ header .item_one h2, header .item_two h2 {
 header .item_two {
     top: 52%;
     right: 14%;
+    animation-name: three;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes three {
+    0% {top: 54%;}
+    50% {top: 52%;}
+    100% {top: 54%;}
 }
 @media screen and (max-width: 768px) {
     header {
