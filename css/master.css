@@ -39,3 +39,37 @@ nav .info a {
     }
 }
 /* Navigation CSS End */
+
+
+/* Footer CSS Start */
+footer {
+    padding: 100px 0 50px;
+    background-color: #063231;
+}
+footer p, footer h4, footer a {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    transition: 0.4s;
+}
+footer a:hover, footer .orange {
+    color: #f75709 !important;
+}
+footer ul li {
+    background-color: #1f4746;
+    width: 42px;
+    height: 42px;
+    transition: 0.4s;
+}
+footer ul li:hover {
+    background-color: #f75709;
+}
+footer .tags {
+    border-bottom: 1px solid #ffffff20;
+    border-top: 1px solid #ffffff20;
+}
+@media screen and (max-width: 768px) {
+    footer {
+        padding: 60px 0 50px;
+    }
+}
+/* Footer CSS End */
