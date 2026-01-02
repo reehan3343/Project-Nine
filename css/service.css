@@ -1,0 +1,105 @@
+/* Header CSS Start */
+header {
+    padding: 140px 0;
+    background-color: #063231;
+}
+header h1 {
+    font-size: 72px;
+}
+header a, header p {
+    transition: 0.4s;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+}
+header a:hover {
+    color: #f75709 !important;
+}
+header p {
+    color: #c3df94;
+}
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 48px;
+    }
+    header a, header p {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 576px) {
+    header h1 {
+        font-size: 38px;
+    }
+    header a, header p {
+        font-size: 14px;
+    }
+}
+/* Header CSS End */
+
+
+/* Service CSS Start */
+.service {
+    padding: 100px 0;
+}
+.service .item {
+    background-color: #f5f7f7;
+    padding: 40px 30px;
+}
+.service .item .icon {
+    background-color: #c3df94;
+    color: #063231;
+    width: 70px;
+    height: 70px;
+    transition: 0.4s;
+    margin-bottom: 38px;
+}
+.service .item:hover .icon {
+    background-color: #f75709;
+    color: #fff;
+}
+.service .item h3 {
+    color: #063231;
+}
+.service .item h3 i {
+    color: #f75709;
+    margin-left: -30px;
+    transform: rotate(315deg);
+    opacity: 0;
+    transition: 0.4s;
+}
+.service .item h3:hover i {
+    margin-left: 0;
+    opacity: 1;
+}
+.service .item p {
+    font-size: 18px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+@media screen and (max-width: 768px) {
+    .service {
+        padding: 60px 0;
+    }
+    .service .item p {
+        font-size: 14px;
+    }
+    .service .item {
+        padding: 36px 26px;
+    }
+    .service .item h3 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .service {
+        padding: 38px 0;
+    }
+    .service .item p {
+        font-size: 12px;
+    }
+    .service .item {
+        padding: 30px 20px;
+    }
+    .service .item h3 {
+        font-size: 18px;
+    }
+}
+/* Service CSS End */

@@ -1,0 +1,90 @@
+/* Header CSS Start */
+header {
+    padding: 140px 0;
+    background-color: #063231;
+}
+header h1 {
+    font-size: 72px;
+}
+header a, header p {
+    transition: 0.4s;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+}
+header a:hover {
+    color: #f75709 !important;
+}
+header p {
+    color: #c3df94;
+}
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 48px;
+    }
+    header a, header p {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 576px) {
+    header h1 {
+        font-size: 38px;
+    }
+    header a, header p {
+        font-size: 14px;
+    }
+}
+/* Header CSS End */
+
+
+/* Blog CSS Start */
+.blog {
+    padding: 100px 0;
+}
+.blog .item {
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+.blog .item:hover .image img {
+    transform: scale(1.06);
+}
+.blog .item .image {
+    overflow: hidden;
+}
+.blog .item .image img {
+    transition: 0.4s;
+}
+.blog .item .texts p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.blog .item .texts .border_end {
+    border-right: 1px solid #000;
+}
+.blog .item .texts .blog_single {
+    line-height: 36px;
+    transition: 0.4s;
+}
+.blog .item .texts .blog_single:hover, .blog .item .texts .read {
+    color: #f75709 !important;
+    transition: 0.4s;
+}
+.blog .item .texts .read:hover {
+    color: #000 !important;
+}
+@media screen and (max-width: 768px) {
+    .blog {
+        padding: 60px 0;
+    }
+    .blog .item .texts .read, .blog .item .texts p {
+        font-size: 14px;
+    }
+    .blog .item .texts .blog_single {
+        font-size: 17px !important;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .blog {
+        padding: 38px 0;
+    }
+}
+/* Blog CSS End */

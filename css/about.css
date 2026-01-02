@@ -1,0 +1,388 @@
+/* Header CSS Start */
+header {
+    padding: 140px 0;
+    background-color: #063231;
+}
+header h1 {
+    font-size: 72px;
+}
+header a, header p {
+    transition: 0.4s;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+}
+header a:hover {
+    color: #f75709 !important;
+}
+header p {
+    color: #c3df94;
+}
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 48px;
+    }
+    header a, header p {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 576px) {
+    header h1 {
+        font-size: 38px;
+    }
+    header a, header p {
+        font-size: 14px;
+    }
+}
+/* Header CSS End */
+
+
+/* About CSS Start */
+.about {
+    padding: 100px 0;
+}
+.about .image img {
+    width: 100%;
+}
+.about h6 {
+    color: #f75709;
+}
+.about h1 {
+    color: #063231;
+    font-size: 56px;
+    max-width: 500px;
+}
+.about p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    max-width: 500px;
+    color: #063231;
+}
+.about .button {
+    background-color: #063231;
+    transition: 0.4s;
+}
+.about .button:hover {
+    background-color: #f75709;
+}
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 60px 0;
+    }
+    .about h1, .about p {
+        max-width: 100%;
+    }
+    .about h6 {
+        font-size: 14px;
+    }
+    .about h1 {
+        font-size: 44px;
+    }
+    .about p {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .about {
+        padding: 38px 0;
+    }
+    .about h6 {
+        font-size: 12px;
+    }
+    .about h1 {
+        font-size: 24px;
+    }
+    .about p {
+        font-size: 14px;
+    }
+}
+/* About CSS End */
+
+
+/* Process CSS Start */
+.process {
+    background-color: #f5f7f7;
+    padding: 100px 0;
+    position: relative;
+}
+.process .headline h6 {
+    color: #f75709;
+}
+.process .headline h1 {
+    color: #063231;
+    font-size: 56px;
+    max-width: 506px;
+}
+.process .item .step {
+    color: #063231;
+    background-color: #c3df94;
+    max-width: 100px;
+}
+.process .item a {
+    color: #063231;
+    transition: 0.4s;
+}
+.process .item a:hover {
+    color: #f75709 !important;
+}
+.process .item p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 19px;
+    max-width: 302px;
+}
+.process .image {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+@media screen and (max-width: 768px) {
+    .process {
+        padding: 60px 0;
+    }
+    .process .headline h6 {
+        font-size: 14px;
+    }
+    .process .headline h1 {
+        font-size: 44px;
+    }
+    .process .item p {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .process {
+        padding: 38px 0;
+    }
+    .process .headline h6 {
+        font-size: 12px;
+    }
+    .process .headline h1 {
+        font-size: 28px;
+    }
+    .process .item p {
+        font-size: 14px;
+        max-width: 260px;
+    }
+}
+/* Process CSS End */
+
+
+/* Stats CSS Start */
+.stats {
+    padding: 100px 0;
+}
+.stats .items {
+    background-color: #f5f7f7;
+    padding: 44px 0;
+}
+.stats .item {
+    padding: 0 70px;
+}
+.stats .item h2, .stats .item h4, .stats .item p {
+    color: #063231;
+}
+.stats .item h2 {
+    font-size: 80px;
+}
+.stats .item h2 .orange {
+    color: #f75709;
+}
+.stats .item p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 19px;
+}
+@media screen and (max-width: 768px) {
+    .stats {
+        padding: 60px 0;
+    }
+    .stats .items {
+        padding: 38px 0;
+    }
+    .stats .item {
+        padding: 0 20px;
+    }
+    .stats .middle {
+        border: 0 !important;
+    }
+}
+/* Stats CSS End */
+
+
+/* Benefits CSS Start */
+.benefits {
+    background-color: #063231;
+    padding: 100px 0;
+}
+.benefits h1 {
+    font-size: 58px;
+}
+.benefits p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 17px;
+}
+.benefits a {
+    background-color: #c3df94;
+    color: #063231;
+    transition: 0.4s;
+}
+.benefits a:hover {
+    background-color: #f75709;
+    color: #fff;
+}
+.benefits .image {
+    margin-top: 58px;
+}
+.benefits .item {
+    background-color: #ffffff1a;
+    transition: 0.4s;
+}
+.benefits .item:hover {
+    background-color: #f75709;
+}
+@media screen and (max-width: 768px) {
+    .benefits {
+        padding: 60px 0;
+    }
+    .benefits h1 {
+        font-size: 30px;
+    }
+    .benefits p {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .benefits {
+        padding: 38px 0;
+    }
+    .benefits h1 {
+        font-size: 24px;
+    }
+    .benefits p {
+        font-size: 13px;
+    }
+    .benefits h3 {
+        font-size: 18px;
+    }
+    .benefits .image {
+        margin-top: 58px;
+    }
+}
+/* Benefits CSS End */
+
+
+/* Team CSS Start */
+.team {
+    padding: 100px 0;
+}
+.team .headline h6 {
+    color: #f75709;
+}
+.team .headline h1 {
+    color: #063231;
+    font-size: 56px;
+    max-width: 627px;
+}
+.team .item .wrapper {
+    position: relative;
+}
+.team .item .wrapper:hover ul {
+    opacity: 1;
+    transform: translateY(-28px);
+}
+.team .item .wrapper ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.4s;
+}
+.team .item .wrapper ul li a {
+    transition: 0.4s;
+}
+.team .item .wrapper ul li a:hover {
+    color: #fff !important;
+    background-color: #f75709 !important;
+}
+.team .item .texts a {
+    transition: 0.4s;
+}
+.team .item .texts a:hover {
+    color: #f75709 !important;
+}
+.team .item .texts p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 19px;
+}
+@media screen and (max-width: 768px) {
+    .team {
+        padding: 60px 0;
+    }
+    .team .headline h6 {
+        font-size: 14px;
+    }
+    .team .headline h1 {
+        font-size: 44px;
+    }
+    .team .item p {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .team {
+        padding: 38px 0;
+    }
+    .team .headline h6 {
+        font-size: 12px;
+    }
+    .team .headline h1 {
+        font-size: 28px;
+    }
+    .team .item p {
+        font-size: 14px;
+    }
+}
+/* Team CSS End */
+
+
+/* Testimonial CSS Start */
+.testimonial {
+    padding: 100px 0;
+    background-color: #f5f7f7;
+}
+.testimonial .headline h6, .testimonial .stars li {
+    color: #f75709;
+}
+.testimonial .headline h1 {
+    color: #063231;
+    font-size: 56px;
+}
+.testimonial .rating h4, .testimonial .rating .user p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+@media screen and (max-width: 768px) {
+    .testimonial {
+        padding: 60px 0;
+    }
+    .testimonial .headline h6 {
+        font-size: 14px;
+    }
+    .testimonial .headline h1 {
+        font-size: 44px;
+    }
+    .testimonial .rating {
+        border: 0 !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    .testimonial {
+        padding: 38px 0;
+    }
+    .testimonial .headline h6 {
+        font-size: 12px;
+    }
+    .testimonial .headline h1 {
+        font-size: 28px;
+    }
+}
+/* Testimonial CSS End */

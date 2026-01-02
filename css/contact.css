@@ -1,0 +1,160 @@
+/* Header CSS Start */
+header {
+    padding: 140px 0;
+    background-color: #063231;
+}
+header h1 {
+    font-size: 72px;
+}
+header a, header p {
+    transition: 0.4s;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+}
+header a:hover {
+    color: #f75709 !important;
+}
+header p {
+    color: #c3df94;
+}
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 48px;
+    }
+    header a, header p {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 576px) {
+    header h1 {
+        font-size: 38px;
+    }
+    header a, header p {
+        font-size: 14px;
+    }
+}
+/* Header CSS End */
+
+
+/* Info CSS Start */
+.info {
+    padding: 100px 0;
+}
+.info .item {
+    background-color: #f5f7f7;
+    padding: 30px 40px;
+}
+.info .icon {
+    background-color: #f757091a;
+    width: 80px;
+    height: 80px;
+    transition: 0.4s;
+}
+.info .item:hover .icon {
+    background-color: #f75709;
+    color: #fff;
+}
+.info p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+    .info {
+        padding: 60px 0;
+    }
+    .info p {
+        font-size: 16px;
+    }
+    .info h3 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .info {
+        padding: 38px 0;
+    }
+    .info p {
+        font-size: 14px;
+    }
+    .info h3 {
+        font-size: 18px;
+    }
+}
+/* Info CSS End */
+
+
+/* Contact CSS Start */
+.contact {
+    padding: 100px 0;
+    background-color: #f5f7f7;
+}
+.contact .headline h6 {
+    color: #f75709;
+}
+.contact .headline h1 {
+    font-size: 56px;
+    max-width: 407px;
+}
+.contact form .input_group input, .contact form .input_group textarea {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    border: 1px solid #fff;
+    font-size: 18px;
+}
+.contact form .input_group input:focus, .contact form .input_group textarea:focus {
+    box-shadow: none;
+    border: 1px solid #bbb !important;
+}
+.contact button {
+    background-color: #f75709;
+    color: #fff;
+    transition: 0.4s;
+    text-align: center !important;
+    width: 100%;
+}
+.contact button:hover {
+    background-color: #c3df94;
+    color: #063231;
+}
+@media screen and (max-width: 768px) {
+    .contact {
+        padding: 60px 0;
+    }
+    .contact .headline h6 {
+        font-size: 14px;
+    }
+    .contact .headline h1 {
+        font-size: 40px;
+    }
+    .contact form .input_group input, .contact form .input_group textarea {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .contact {
+        padding: 38px 0;
+    }
+    .contact .headline h6 {
+        font-size: 12px;
+    }
+    .contact .headline h1 {
+        font-size: 30px;
+    }
+    .contact form .input_group input, .contact form .input_group textarea {
+        font-size: 14px;
+    }
+}
+/* Contact CSS End */
+
+
+/* Google Map CSS Start */
+.map iframe {
+    width: 100%;
+    height: 680px;
+    margin-bottom: -6px;
+}
+@media screen and (max-width: 576px) {
+    .map iframe {
+        height: 590px;
+    }
+}
+/* Google Map CSS End */

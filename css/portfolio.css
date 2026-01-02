@@ -1,0 +1,88 @@
+/* Header CSS Start */
+header {
+    padding: 140px 0;
+    background-color: #063231;
+}
+header h1 {
+    font-size: 72px;
+}
+header a, header p {
+    transition: 0.4s;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+}
+header a:hover {
+    color: #f75709 !important;
+}
+header p {
+    color: #c3df94;
+}
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 48px;
+    }
+    header a, header p {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 576px) {
+    header h1 {
+        font-size: 38px;
+    }
+    header a, header p {
+        font-size: 14px;
+    }
+}
+/* Header CSS End */
+
+
+/* Portfolio CSS Start */
+.portfolio {
+    padding: 100px 0;
+}
+.portfolio .item {
+    position: relative;
+    overflow: hidden;
+    transition: 0.4s;
+}
+.portfolio .item:hover .texts {
+    opacity: 1;
+    transform: translateY(0);
+}
+.portfolio .item .texts {
+    position: absolute;
+    bottom: 2%;
+    left: 3%;
+    width: 94%;
+    transition: 0.4s;
+    transform: translateY(100px);
+    opacity: 0;
+}
+.portfolio .item .texts .single_page {
+    color: #063231;
+    transition: 0.4s;
+}
+.portfolio .item .texts .single_page:hover, .portfolio .item .texts .icon {
+    color: #f75709;
+    transition: 0.4s;
+}
+.portfolio .item .texts .icon {
+    transform: rotate(315deg);
+}
+.portfolio .item .texts .icon:hover {
+    transform: rotate(360deg);
+}
+.portfolio .item .texts p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+@media screen and (max-width: 768px) {
+    .portfolio {
+        padding: 60px 0;
+    }
+}
+@media screen and (max-width: 576px) {
+    .portfolio {
+        padding: 38px 0;
+    }
+}
+/* Portfolio CSS End */
