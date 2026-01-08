@@ -34,3 +34,152 @@ header p {
     }
 }
 /* Header CSS End */
+
+
+/* Details CSS Start */
+.details {
+    padding: 100px 0;
+}
+.details .image {
+    overflow: hidden;
+}
+.details h1, .details h2, .details .tags_one a, .details .share ul li a, .details .image img, .details .post h5, .details h3, .details .services a, .details .services p, .details .services .icon, .details .tags a {
+    transition: 0.4s;
+    color: #063231;
+}
+.details .image img:hover {
+    transform: scale(1.1);
+}
+.details .icon {
+    color: #f75709;
+    font-size: 18px;
+}
+.details p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.details h1 {
+    font-size: 50px;
+}
+.details .quote, .details .item {
+    background-color: #f5f7f7;
+}
+.details .height img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.details h6 {
+    font-size: 20px;
+}
+.details .tags_one a:hover, .details .post h5:hover {
+    color: #f75709;
+    cursor: pointer;
+}
+.details .share ul li a {
+    border: 1px solid #063231;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+}
+.details .share ul li a:hover {
+    border: 1px solid #f55709;
+    background-color: #f75709;
+    color: #fff;
+}
+.details .user h5, .details .item p {
+    color: #f75709;
+}
+.details form .input_group input, .details form .input_group textarea {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    border: 1px solid #eee;
+}
+.details form .input_group input:focus, .details form .input_group textarea:focus {
+    box-shadow: none;
+    border: 1px solid #bbb !important;
+}
+.details button {
+    background-color: #f75709;
+    color: #fff;
+    transition: 0.4s;
+}
+.details button:hover {
+    background-color: #c3df94;
+    color: #063231;
+}
+.details .item form {
+    position: relative;
+}
+.details .item form .icon {
+    position: absolute;
+    top: 24%;
+    left: 4%;
+}
+.details .item form input {
+    border: 1px solid #ddd;
+}
+.details .item .post .texts {
+    max-width: 300px;
+}
+.details .services a:hover {
+    background-color: #f75709;
+}
+.details .services a:hover p, .details .services a:hover .icon {
+    color: #fff !important;
+}
+.details .tags a {
+    border-right: 1px solid #063231;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.details .tags a:hover {
+    color: #f55709 !important;
+}
+@media screen and (max-width: 768px) {
+    .details {
+        padding: 60px 0;
+    }
+    .details h1 {
+        font-size: 30px;
+    }
+    .details h2 {
+        font-size: 22px;
+    }
+    .details p {
+        font-size: 14px;
+    }
+    .details h6 {
+        font-size: 16px;
+    }
+    .details h3 {
+        font-size: 20px !important;
+    }
+    .details .item form .icon {
+        top: 24%;
+        left: 3%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .details {
+        padding: 38px 0;
+    }
+    .details h1 {
+        font-size: 24px;
+    }
+    .details h2 {
+        font-size: 16px;
+    }
+    .details p, .details form .input_group input, .details form .input_group textarea, .details form button, .details .tags a {
+        font-size: 12px;
+    }
+    .details h6, .details h5 {
+        font-size: 14px;
+    }
+    .details h3 {
+        font-size: 16px !important;
+    }
+    .details .item form .icon {
+        top: 22%;
+        left: 3.4%;
+        font-size: 12px;
+    }
+}
+/* Details CSS End */

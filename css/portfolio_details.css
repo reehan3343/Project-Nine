@@ -34,3 +34,61 @@ header p {
     }
 }
 /* Header CSS End */
+
+
+/* Details CSS Start */
+.details {
+    padding: 100px 0;
+}
+.details h1, .details h4 {
+    color: #063231;
+}
+.details h1 {
+    font-size: 52px;
+}
+.details p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.details .info {
+    overflow: hidden;
+}
+.details .info .headline {
+    background-color: #f75709;
+}
+.details .info .wrapper {
+    background-color: #f5f7f7;
+}
+.details .info .icon {
+    background-color: #063231;
+    width: 52px;
+    height: 52px;
+}
+@media screen and (max-width: 768px) {
+    .details {
+        padding: 60px 0;
+    }
+    .details h1 {
+        font-size: 38px;
+    }
+    .details h4 {
+        font-size: 20px !important;
+    }
+    .details p {
+        font-size: 14px !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    .details {
+        padding: 38px 0;
+    }
+    .details h1 {
+        font-size: 19px;
+    }
+    .details h4 {
+        font-size: 14px !important;
+    }
+    .details p {
+        font-size: 12px;
+    }
+}
+/* Details CSS End */

@@ -34,3 +34,76 @@ header p {
     }
 }
 /* Header CSS End */
+
+
+/* Details CSS Start */
+.details {
+    padding: 100px 0;
+}
+.details h1, .details .icon, .details h3, .details p, .details h3, .details h5 {
+    color: #063231;
+}
+.details h1 {
+    font-size: 58px;
+}
+.details h6 {
+    color: #f75709;
+}
+.details p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+}
+.details .image {
+    max-width: 500px;
+}
+.details .image img {
+    width: 100%;
+}
+.details li a {
+    background-color: #063231;
+    width: 48px;
+    height: 46px;
+    transition: 0.4s;
+}
+.details li a:hover, .details .progress-bar {
+    background-color: #f75709;
+}
+.details .progress {
+    border: 1px solid #ddd;
+    padding: 2px;
+}
+@media screen and (max-width: 768px) {
+    .details {
+        padding: 60px 0;
+    }
+    .details h1 {
+        font-size: 44px;
+    }
+    .details p {
+        font-size: 16px;
+    }
+    .details h3 {
+        font-size: 22px;
+    }
+    .details h5 {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .details {
+        padding: 38px 0;
+    }
+    .details h1 {
+        font-size: 34px;
+    }
+    .details p {
+        font-size: 14px !important;
+    }
+    .details h3 {
+        font-size: 20px;
+    }
+    .details h5 {
+        font-size: 16px;
+    }
+}
+/* Details CSS End */
