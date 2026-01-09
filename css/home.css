@@ -140,20 +140,6 @@ header .item_two {
     background-color: #f75709;
     color: #fff;
 }
-.service .item h3 {
-    color: #063231;
-}
-.service .item h3 i {
-    color: #f75709;
-    margin-left: -30px;
-    transform: rotate(315deg);
-    opacity: 0;
-    transition: 0.4s;
-}
-.service .item h3:hover i {
-    margin-left: 0;
-    opacity: 1;
-}
 .service .item p {
     font-size: 18px;
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -300,6 +286,10 @@ header .item_two {
     color: #063231;
     font-size: 56px;
     max-width: 343px;
+}
+.portfolio .image img {
+    height: auto;
+    width: 100%;
 }
 .portfolio .item {
     position: relative;
@@ -572,6 +562,8 @@ header .item_two {
 }
 .blog .item .image img {
     transition: 0.4s;
+    height: auto;
+    width: 100%;
 }
 .blog .item .texts p {
     font-family: "Plus Jakarta Sans", sans-serif;

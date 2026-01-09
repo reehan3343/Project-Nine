@@ -40,6 +40,10 @@ header p {
 .portfolio {
     padding: 100px 0;
 }
+.portfolio .item .image img {
+    height: auto;
+    width: 100%;
+}
 .portfolio .item {
     position: relative;
     overflow: hidden;

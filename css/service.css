@@ -59,17 +59,6 @@ header p {
 .service .item h3 {
     color: #063231;
 }
-.service .item h3 i {
-    color: #f75709;
-    margin-left: -30px;
-    transform: rotate(315deg);
-    opacity: 0;
-    transition: 0.4s;
-}
-.service .item h3:hover i {
-    margin-left: 0;
-    opacity: 1;
-}
 .service .item p {
     font-size: 18px;
     font-family: "Plus Jakarta Sans", sans-serif;

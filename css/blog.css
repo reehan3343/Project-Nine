@@ -52,6 +52,8 @@ header p {
 }
 .blog .item .image img {
     transition: 0.4s;
+    height: auto;
+    width: 100%;
 }
 .blog .item .texts p {
     font-family: "Plus Jakarta Sans", sans-serif;
